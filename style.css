@@ -1,0 +1,40 @@
+:root {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+img {
+    height: 20px;
+    width: auto;
+}
+
+#sub-head {
+    background-color: red;
+}
+
+header {
+    background-color: blue;
+}
+
+#sidebar {
+    background-color: green;
+}
+
+#main-contents {
+    border: 2px solid black
+}
+
+#projects {
+    background-color: gray;
+}
+
+#right-sidebar {
+    background-color: pink;
+}
+
+
