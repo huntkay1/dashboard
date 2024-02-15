@@ -137,7 +137,10 @@ button {
     background-color: #009aee;
     grid-row: 1 / 4;
     min-width: 220px;
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh;
 }
 
 #title {
@@ -177,17 +180,14 @@ button {
     margin-right: 1vw;
 }
 
-#title, #nav-1, #nav-2 {
-    position: fixed;
-}
-
 #nav-1 {
-    top: 110px;
+    margin-top: 45px;
 }
 
 #nav-2 {
-    top: 440px;
+    margin-top: 55px;
 }
+
 
 
 
